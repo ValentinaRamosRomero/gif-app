@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+body {
+  font-family: 'Lato', sans-serif;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%,
+     rgba(0,255,248,1) 0%, rgba(145,145,200,1) 59%);
+}
+
+h2{
+  font-size: calc(5px + 5vh);
+  line-height: calc(5px + 5vh);
+  text-shadow: 0 0 5px #ffa500, 
+              0 0 10px #ffa500, 
+              0 0 10px #ffa500, 
+              0 0 40px #ffa500, 
+              0 0 60px #ff0000, 
+              0 0 10px #ff8d00, 
+              0 0 98px #ff0000;
+    color: #fff6a9;
+  font-family: "Sacramento", cursive;
+  text-align: center;
+  animation: blink 12s infinite;
+  -webkit-animation: blink 12s infinite;
+}
+
+.App {
+  text-align: center;
+  margin-top: 6%;
+}
+
+.container-gifs {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-top: 4%;
+  justify-content: center;
+  padding: 0 5%;
+}
+
+.container-gifs div img {
+  border-radius: 18px;
+  box-shadow: 
+    rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+input[type="text"] {
+  font-size: inherit;
+  padding: 12px 20px;
+  outline: none;
+  border: solid 0px #000;
+  border-radius: 20px;
+  width: 300px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.error {
+  color: red;
+}
+
+p{
+  color:rgb(17, 36, 107);
+  font-family: "Sacramento", cursive;
+  font-size: 20px;
+  font-weight: 700;
+  width: 300px;
+}
+
+/*
+p.author {
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+  gap: 7px;
+  color: #000;
+}*/
+
